@@ -2,11 +2,11 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
-# Project 1: Navigation
+# Deep Q-Network learning a Unity Environment
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+This repo contains my solution to a project in Udacity's Deep Reinforcement Learning Nanodegree. In it, an agent has to navigate a world written with the Unity simulator, picking up yellow bananas and avoiding blue ones. 
 
 ![Trained Agent][image1]
 
@@ -18,7 +18,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 - **`2`** - turn left.
 - **`3`** - turn right.
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Installation
 
