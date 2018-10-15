@@ -56,6 +56,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 5. Run the notebook
 ```bash
 jupyter notebook Navigation.ipynb
+```
 
 6. Before running the code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. You should only need to do this the first time. 
 
