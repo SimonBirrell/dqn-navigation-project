@@ -24,7 +24,10 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
-1. Create (and activate) a new environment with Python 3.6.
+1. [Download and install Anaconda](https://www.anaconda.com/download/), if you don't already have it.
+
+
+2. Create (and activate) a new environment with Python 3.6.
 
 	- __Linux__ or __Mac__: 
 	```bash
@@ -37,14 +40,10 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
-	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
-	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
-	
-3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+3. Clone the repository and navigate to the root folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+git clone https://github.com/SimonBirrell/dqn-navigation-project.git
+cd dqn-navigation-project
 pip install .
 ```
 
@@ -59,8 +58,6 @@ jupyter notebook Navigation.ipynb
 ```
 
 6. Before running the code in the notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. You should only need to do this the first time. 
-
-![Kernel][image2]
 
 7. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
